@@ -1,15 +1,16 @@
 [![Build Status](https://secure.travis-ci.org/robertkowalski/node-async-minihelper.png)](http://travis-ci.org/robertkowalski/node-async-minihelper)
 
 #async-minihelper
+
 ##minimalistic async functions helper
 
-#Install
+##Install
 
 ```
 npm install async-minihelper
 ```
 
-#Example usage
+##Example usage
 
 ```javascript
 var async = require('async-minihelper');
@@ -32,7 +33,7 @@ async([
 ]);
 ```
 
-#Tests
+##Tests
 
 ```
 make
