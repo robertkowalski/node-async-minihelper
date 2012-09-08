@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/robertkowalski/node-async-minihelper.png)](http://travis-ci.org/robertkowalski/node-async-minihelper)
+
 #async-minihelper
 ##minimalistic async functions helper
 
