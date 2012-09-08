@@ -1,0 +1,27 @@
+{
+  "name": "async-minihelper",
+  "license": "BSD",
+  "version": "1.0.0",
+  "author": "Robert Kowalski <rok@kowalski.gd>",
+  "description": "A lightweight helper for async callbacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "make"
+  },
+  "engines" : {
+    "node" : ">=0.6.0"
+  },
+  "devDependencies": {
+    "chai": "",
+    "mocha": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertkowalski/node-async-minihelper.git"
+  },
+  "keywords": [
+    "async",
+    "control flow",
+    "callback"
+  ]
+}
