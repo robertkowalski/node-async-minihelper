@@ -4,6 +4,7 @@
 ##minimalistic async functions helper
 
 #Install
+
 ```
 npm install async-minihelper
 ```
@@ -19,7 +20,6 @@ async([
   },
   function(arg1, arg2, callback) {
     //arg1 == hello, arg2 == world
-    console.log('hey robert');
     callback(1, 2);
   },
   function(arg1, arg2, callback) {
