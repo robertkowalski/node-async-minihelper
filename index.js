@@ -1,4 +1,4 @@
-module.exports = function(array, callback) {
+module.exports = function(array) {
   var func;
 
   function start() {
