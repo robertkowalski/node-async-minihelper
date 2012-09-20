@@ -1,5 +1,6 @@
 var chai = require('chai'),
-    async = require('../index');
+    async = require('../index'),
+    sinon = require('sinon');
 
 var expect = chai.expect;
 
@@ -32,4 +33,17 @@ describe('async-helper', function(done) {
     ]);
   });
 
+  it('should not call the second argument by own', function(done) {
+    async([
+      function(callback) {
+        var spy = sinon.spy();
+        callback('hello', spy);
+      },
+      function(arg1, spy) {
+        expect(arg1).to.equal('hello');
+        expect(spy.called).to.equal(false);
+        done();
+      }
+    ]);
+  });
 });

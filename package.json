@@ -12,8 +12,10 @@
     "node" : ">=0.6.0"
   },
   "devDependencies": {
-    "chai": "",
-    "mocha": ""
+    "chai": "*",
+    "mocha": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
   },
   "repository": {
     "type": "git",
